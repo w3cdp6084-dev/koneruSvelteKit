@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { PageData } from "./$types";
+
   export let data: PageData;
 </script>
 
@@ -17,8 +18,9 @@
   </ul>
 </section>
 
+
 <style lang="postcss">
     :global(html) {
       background-color: theme(colors.gray.100);
     }
-  </style>
+</style>
