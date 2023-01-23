@@ -9,14 +9,21 @@
   <title>Home</title>
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
+
 <ThemeSwitch />
+
 <section>
   <ul class="flex">
     {#each data.contents as content}
-      <li class="">
-        <a href="{content.id}">{content.title}</a>
+      <li class="cardWrap">
         <div>
-          <img src={content.eyecatch?.url} alt="" />
+          <img src={content.eyecatch?.url} alt="イメージ画像" />
+        </div>
+        <div>
+          <a href="{content.id}">{content.title}</a>
+        </div>
+        <div>
+          <a href="/">#カテゴリ</a>
         </div>
       </li>
       
