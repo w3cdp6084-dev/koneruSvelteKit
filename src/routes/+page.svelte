@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { PageData } from "./$types";
+  import ThemeSwitch from '$lib/ThemeSwitch/ThemeSwitch.svelte';
 
   export let data: PageData;
 </script>
@@ -8,7 +9,7 @@
   <title>Home</title>
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
-
+<ThemeSwitch />
 <section>
 
   <ul>
@@ -20,7 +21,5 @@
 
 
 <style lang="postcss">
-    :global(html) {
-      background-color: theme(colors.gray.100);
-    }
+
 </style>
