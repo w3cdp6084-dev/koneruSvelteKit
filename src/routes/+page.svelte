@@ -11,10 +11,16 @@
 </svelte:head>
 <ThemeSwitch />
 <section>
-
-  <ul>
+  <ul class="flex">
     {#each data.contents as content}
-      <li><a href="{content.id}">{content.title}</a></li>
+      <li>
+        <a href="{content.id}">{content.title}</a>
+        <div>
+          <img src={content.eyecatch?.url} alt="" />
+
+        </div>
+      </li>
+      
     {/each}
   </ul>
 </section>
