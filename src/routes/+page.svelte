@@ -13,11 +13,10 @@
 <section>
   <ul class="flex">
     {#each data.contents as content}
-      <li>
+      <li class="">
         <a href="{content.id}">{content.title}</a>
         <div>
           <img src={content.eyecatch?.url} alt="" />
-
         </div>
       </li>
       
