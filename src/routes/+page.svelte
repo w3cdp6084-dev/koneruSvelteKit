@@ -14,7 +14,7 @@
 <ThemeSwitch />
 
 <section>
-  <ul class="lg:flex sm:block">
+  <ul class="lg:flex sm:block flex-wrap">
     {#each data.contents as content}
       <!-- <li class="cardWrap">
         <div>
@@ -27,7 +27,7 @@
           <a href="/">#カテゴリ</a>
         </div>
       </li> -->
-      <div>
+      <div class="w-4/12">
         <Card img={content.eyecatch?.url} reverse={vCard}>
           <a href="{content.id}" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{content.title}</a><br>
           <a href="{content.id}" class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">{content.category.name}</a>
