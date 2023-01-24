@@ -9,6 +9,6 @@ import Nav from "./Nav.svelte";
 <style lang="postcss">
 	.l-header {
 		position: relative;
-		height: auto;
+		height: 100px;
 	}
 </style>

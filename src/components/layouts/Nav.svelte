@@ -9,8 +9,8 @@
       easing: sineIn
     };
   </script>
-  <div class="text-center">
-    <Button on:click={() => (hidden2 = false)}>Show navigation</Button>
+  <div class="fixed right-2 top-2">
+    <Button on:click={() => (hidden2 = false)} class='bg-gray-800 hover:bg-gray-700 dark:focus:ring-gray-800 '>🍔</Button>
   </div>
   <Drawer transitionType="fly" {transitionParams} bind:hidden={hidden2} id='sidebar2'>
   <div class='flex items-center'>
@@ -72,3 +72,9 @@
       </SidebarWrapper>
     </Sidebar>
   </Drawer>
+
+  <style lang="postcss">
+ .switch button{
+  background-color: #fff;
+  }
+  </style>

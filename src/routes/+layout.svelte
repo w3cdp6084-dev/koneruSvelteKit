@@ -6,9 +6,9 @@
 
 <div class="wrap">
     <Header />
-        <div class="l-content">
+        <main class="l-content mt-24">
             <slot />
-        </div>
+        </main>
     <Footer />
 </div>
 <style lang="postcss">
