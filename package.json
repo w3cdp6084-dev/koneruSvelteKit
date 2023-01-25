@@ -42,6 +42,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"microcms-js-sdk": "^2.3.2"
+		"microcms-js-sdk": "^2.3.2",
+		"twemoji-parser": "^14.0.0"
 	}
 }
