@@ -10,7 +10,7 @@
     };
   </script>
   <div class="fixed right-2 top-2">
-    <Button on:click={() => (hidden2 = false)} class='bg-gray-600 dark:bg-gray-800 hover:bg-gray-700 dark:focus:ring-gray-800'>🍔</Button>
+    <Button on:click={() => (hidden2 = false)} class='bg-gray-600 dark:bg-gray-600 hover:bg-gray-600 dark:focus:ring-gray-600'>🍔</Button>
   </div>
   <Drawer transitionType="fly" {transitionParams} bind:hidden={hidden2} id='sidebar2'>
   <div class='flex items-center'>
@@ -49,7 +49,7 @@
             </svelte:fragment>
             <svelte:fragment slot="subtext">
               <span
-                class="inline-flex justify-center items-center p-3 ml-3 w-3 h-3 text-sm font-medium text-blue-600 bg-blue-200 rounded-full dark:bg-blue-900 dark:text-blue-200"
+                class="inline-flex justify-center items-center p-3 ml-3 w-3 h-3 text-sm font-medium text-blue-600 rounded-full dark:text-blue-200"
                 >3</span>
             </svelte:fragment>
           </SidebarItem>
