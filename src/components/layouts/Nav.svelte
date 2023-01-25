@@ -10,7 +10,7 @@
     };
   </script>
   <div class="fixed right-2 top-2">
-    <Button on:click={() => (hidden2 = false)} class='bg-gray-800 hover:bg-gray-700 dark:focus:ring-gray-800 '>🍔</Button>
+    <Button on:click={() => (hidden2 = false)} class='dark:bg-gray-800 hover:bg-gray-700 dark:focus:ring-gray-800'>🍔</Button>
   </div>
   <Drawer transitionType="fly" {transitionParams} bind:hidden={hidden2} id='sidebar2'>
   <div class='flex items-center'>
@@ -74,7 +74,5 @@
   </Drawer>
 
   <style lang="postcss">
- .switch button{
-  background-color: #fff;
-  }
+
   </style>

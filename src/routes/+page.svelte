@@ -4,6 +4,7 @@
   import { Card} from "flowbite-svelte";
   let vCard = false;
   export let data: PageData;
+  
 </script>
 
 <svelte:head>
@@ -28,7 +29,7 @@
 
 
 <style lang="postcss">
-.list > .item{
+/* .list > .item{
   border-radius: 22px;
-}
+} */
 </style>

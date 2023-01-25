@@ -1,5 +1,5 @@
 <script>
-import Nav from "./Nav.svelte";
+	import Nav from "./Nav.svelte";
 </script>
 
 <header class="l-header">
