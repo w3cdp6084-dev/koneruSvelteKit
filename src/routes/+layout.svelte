@@ -106,5 +106,9 @@ bind:this={canvas}
     canvas {
 		width: 100%;
 		min-height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 0;
     }
 </style>
