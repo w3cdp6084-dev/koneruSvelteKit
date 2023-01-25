@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type { PageData } from "../$types";
+    import type { PageData } from "./$types";
     import ThemeSwitch from '$lib/ThemeSwitch/ThemeSwitch.svelte';
     import { Card} from "flowbite-svelte";
     export let data: PageData;
