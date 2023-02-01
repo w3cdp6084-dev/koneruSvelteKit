@@ -11,7 +11,7 @@
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<ThemeSwitch />
+
 
 <section>
   <ul class="lg:grid sm:block gap-10 grid-cols-3">

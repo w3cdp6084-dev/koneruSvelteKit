@@ -2,6 +2,7 @@
     import "../app.css";
     import Header from '../components/layouts/Header.svelte';
     import Footer from '../components/layouts/Footer.svelte';
+    import ThemeSwitch from '$lib/ThemeSwitch/ThemeSwitch.svelte';
     import { onMount } from 'svelte';
     let canvas;
 
@@ -93,6 +94,7 @@ bind:this={canvas}
         </main>
     <Footer />
 </div>
+<ThemeSwitch />
 <style lang="postcss">
     .wrap{
         position: relative;
